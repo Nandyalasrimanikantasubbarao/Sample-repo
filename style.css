@@ -1,0 +1,22 @@
+.my-style {
+    background-color: #D61355;
+    color: #FCE22A;
+    border: 4px solid black;
+
+}
+#my-id{
+    background-color: coral;
+    color:green;
+
+}
+p{
+    background-color: navy;
+    color: black;
+}
+h1{
+    color: #000;
+    background-color: fuchsia;
+}
+.hellow{
+    background-color: coral;
+}

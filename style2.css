@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hi{
+    background-color: blue;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25pa;
+    padding-bottom: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display:block;
+}
+.hi1{
+    background-color: red;
+}
