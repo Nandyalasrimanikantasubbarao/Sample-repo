@@ -1,0 +1,9 @@
+p::before{
+    content: "hello";
+    background-color: blue;
+}
+
+p::after{
+    content: "world";
+    background-color: gold;
+}
