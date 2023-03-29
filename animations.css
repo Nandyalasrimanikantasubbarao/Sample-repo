@@ -1,0 +1,22 @@
+div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: chartreuse;
+    animation: 10s abc ;
+    transform-style: flat;
+    
+}
+
+@keyframes abc {
+    20% {
+        margin-right: 500px;
+        background-color: red;
+    }
+    50%{
+        margin-left: 500px;
+        background-color: blue;
+        transform: rotate(40px);
+    }
+    
+}
