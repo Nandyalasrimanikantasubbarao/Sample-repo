@@ -7,7 +7,9 @@ if(num1>num2){
 else{
     console.log("2nd num is bigger")
 }
+
 //if
+
 var a=1;
 if(a>0){
     console.log("positive");
@@ -33,9 +35,10 @@ else{
 }
 
 //switch
+
 var num1=20;
 var num2=30;
-switch(num1>um2){
+switch(num1>num2){
     case true:
         console.log("this is first case");
         break;
@@ -47,5 +50,58 @@ switch(num1>um2){
     default:
         console.log("nothing");
 
-     
+    }
+
+//logical operator
+
+var a=1;
+
+if(!a){
+    console.log("a is +ve");
 }
+else{
+    console.log("nothing");
+}
+
+//ternary operator
+const mymarks=50;
+mymarks>30 ? console.log("passed"):console.log("fail");
+
+//increment operator
+
+var a=2;
+var b=2;
+var c=2;{
+
+b=a--;
+c=--a;
+
+console.log({a,b,c});
+}
+
+//loops
+
+//for loop
+for(var num=0;num<=100;num++){
+    if(num%5===0)
+    console.log(num);
+}
+
+//while loop
+var num=0;
+while(num<=100){
+    if(num%5===0){
+        console.log(num);
+    }
+    num++;
+}
+
+//do while
+var num=0;
+do{
+    if(num%5===0){
+        console.log(num);
+    }
+    num++;
+}
+    while (num<=100); 
